@@ -13,7 +13,7 @@ cols = cols-half_size;
 newXs=startXs;
 newYs=startYs;
 
-%%Find Ix and Iy
+%%Find Ix and Iy of im0
 dx =[-0.5 0 0.5];
 dy =[-0.5 ;0 ;0.5];
 Ix = imfilter(im0,dx);
