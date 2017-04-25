@@ -10,7 +10,7 @@ tau=0.000005;
 
 %%Select Random Key Points
 pts = randperm(size(keyYs,1));
-pts = pts(1:20);
+pts = pts(1:40);
 
 keyXs_rand = keyXs(pts);
 keyYs_rand = keyYs(pts);
